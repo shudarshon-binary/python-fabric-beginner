@@ -6,7 +6,7 @@ import time, os
 
 # these are test multipass hosts grouped by categories
 # for local testing using env.user can be used
-# for remote host management SSH config can be used with -H parameter. e.g. fab -H sshqasg test
+# for remote host management SSH config can be used with -H parameter. e.g. fab -H example.dev test
 env.roledefs.update({
     'dev': [ '10.236.49.147' ],
     'staging': [ '10.236.49.51' ],
