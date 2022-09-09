@@ -1,6 +1,6 @@
 # configure VM
 
-in this example `multipass` is used to spin up local VM. you can use any tool as per your choince. try customizing SSH key and username in cloud init config
+in this example `multipass` is used to spin up local VM. you can use any tool as per your choice. try customizing SSH key and username in cloud init config
 ```
 multipass launch -n testvm --cloud-init config.yaml
 multipass ls
