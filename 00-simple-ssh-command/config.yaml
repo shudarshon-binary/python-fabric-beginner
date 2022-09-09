@@ -1,0 +1,8 @@
+users:
+  - default
+  - name: chaks
+    sudo:  ALL=(ALL) NOPASSWD:ALL
+    groups: sudo
+    ssh_authorized_keys:
+      # replace your SSH public key here
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9tWLIgEvwSRgXyOclVPR2creqHcG8UHWkb9xkhg2ik9pW/qmeawWlAFPHfS1BXsdYr5tUIRisflRmopXrgueCVLEkAJ0sxWTNaQzVwqDlTVQLnEUNxu3oOOBIT+utEeOzPfsvDdUjeuQsNSGuJkTikARH5cdsz3woKIvKClLRTSqueFH/vSkYvZ824vjMSHreTFVgD1kasmetOq3mT8+bbyWmJxZunkvdXd5KA66ZmwvHjUdYFxgRzh/+RTMIgUfHdQimv6GCDwlsLAJBCB90AFz64vZbjruFCa3LJ2X6CASkSWFMNdS77ZUybRSNl6sonItutRC1du4yYlmoKOaya9DppWCI1XxpejURA16D1YmJnoQKVPDUdTBHaD2R75LAfmZrp7k5C56uloKGAEL7OVFZYlcTrPwC5Ul4eAsyBojRzSlFPVXbqk7nPOsCMp49xRN9WiuR5neBjOeQ5VBZHSMdqjiRpTi3zwJjyiHWO5bqUBs3CePUJ3L2+oRqEAtZa+rT+P0w9KgYigkQy8AYnc3TsyTrnSHQDxDvila/7GmQxDSJkCG3G90j4z9G5IkOkBv42Zzu2koI+jHJeuHwxyit7G6PCa+2iGRvMOlkZmlZFzfOQYRuAXjQthuvOuUqDuYMSB9MSi8AtnmvvP6DrAoJTkOBNdwduvBEtYmVRw== shudarshon@deriv.com
